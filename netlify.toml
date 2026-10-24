@@ -1,6 +1,9 @@
 [build]
   functions = "netlify/functions"
 
+[build.environment]
+  NODE_VERSION = "22.23.4"
+
 [[redirects]]
   from = "/"
   to = "/.netlify/functions/public-notify"
